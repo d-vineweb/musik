@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MUSIK</title>
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container-fluid flex px-4 px-lg-5">
+          <a class="navbar-brand" href="#"
+            ><svg
+              width="30"
+              viewBox="0 0 108 104"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M53.7778 0C24.0771 0 0 23.1319 0 51.6667C0 80.2014 24.0771 103.333 53.7778 103.333C83.4784 103.333 107.556 80.2014 107.556 51.6667C107.556 23.1319 83.4784 0 53.7778 0Z"
+                fill="#FF0F50"
+              />
+              <path
+                d="M83.6527 61.1475L83.3407 61.2772V61.4232H71.4311C67.4967 61.4185 64.3086 58.3554 64.304 54.5757V46.902C64.304 46.6892 64.2604 46.4784 64.1756 46.2818C64.0908 46.0851 63.9665 45.9065 63.8099 45.756C63.6532 45.6055 63.4672 45.4861 63.2626 45.4047C63.0579 45.3232 62.8385 45.2813 62.617 45.2814C62.1696 45.2814 61.7405 45.4521 61.4242 45.756C61.1078 46.06 60.9301 46.4722 60.9301 46.902V65.6772C60.9301 69.4593 57.7391 72.5244 53.8029 72.5244C49.8668 72.5244 46.6758 69.4591 46.6758 65.6772V37.6561C46.6758 37.2263 46.4981 36.814 46.1818 36.5101C45.8654 36.2062 45.4364 36.0354 44.989 36.0354C44.5416 36.0354 44.1125 36.2062 43.7962 36.5101C43.4798 36.814 43.3021 37.2263 43.3021 37.6561V54.584C43.2927 58.3605 40.1059 61.4185 36.1749 61.4232H24.1982L23.8947 61.1394V56.4963L24.1982 56.2127H36.1329C36.3544 56.2127 36.5738 56.1708 36.7785 56.0894C36.9832 56.008 37.1691 55.8886 37.3258 55.7381C37.4825 55.5876 37.6067 55.4089 37.6915 55.2123C37.7763 55.0157 37.8199 54.8049 37.8199 54.5921V37.6561C37.8199 33.8743 41.0109 30.8088 44.947 30.8088C48.8833 30.8088 52.0742 33.8745 52.0742 37.6561V65.6855C52.0742 65.8983 52.1178 66.109 52.2026 66.3056C52.2874 66.5023 52.4116 66.6809 52.5683 66.8314C52.7249 66.9819 52.9109 67.1013 53.1155 67.1827C53.3202 67.2642 53.5395 67.3061 53.7611 67.3061C53.9826 67.3061 54.2019 67.2642 54.4066 67.1827C54.6113 67.1013 54.7972 66.9819 54.9538 66.8314C55.1105 66.6809 55.2347 66.5023 55.3195 66.3056C55.4043 66.109 55.4479 65.8983 55.4479 65.6855V46.9018C55.4479 43.1202 58.6389 40.0547 62.5754 40.0547C66.5114 40.0547 69.7022 43.1202 69.7022 46.902V54.584C69.7023 55.0138 69.8801 55.4259 70.1964 55.7298C70.5127 56.0337 70.9417 56.2045 71.389 56.2046H83.2987V56.3344L83.6107 56.4803L83.6527 61.1475Z"
+                fill="white"
+              />
+            </svg>
+
+            MUSIK</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Title -->
+    <section id="title" class="gradient-background">
+      <div class="container col-xxl-8 px-4 pt-3">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./images/Rectangle.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="250"
+              draggable="false"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Get Inspired with Musik and Start Enjoy World Music
+            </h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start py-5">
+              <button type="button" class="btn btn-light btn-lg px-4 me-md-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-apple mb-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                  />
+                  <path
+                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                  />
+                </svg>
+                Download
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-google-play mb-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"
+                  />
+                </svg>
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container flex-vid">
+      <div class="info">
+        <h3>Stream Over 6million+ songs across the World</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          culpa quia sequi, officia nisi soluta Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Tempore, ipsam!!
+        </p>
+      </div>
+      <div class="video">
+        <video src="./filevid.mp4" autoplay muted loop></video>
+      </div>
+    </section>
+    <!-- Features -->
+    <section>
+      <div class="container mt-5">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-music-note-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                />
+                <path fill-rule="evenodd" d="M12 3v10h-1V3h1z" />
+                <path
+                  d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">
+                Organized Playlist Just For You
+              </h3>
+              <p>
+                We will help you organise playlists according to your favorite
+                songs genre
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-globe-europe-africa"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.809.809 0 0 1 1.034-.275.809.809 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34c.078.028.16.044.243.054.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.333.333 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501Z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">World-Wide Music</h3>
+              <p>Stream Musics from all over the world</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-graph-up-arrow"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Charts</h3>
+              <p>
+                View Billboards and Country Charts and know the Trending Hits
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="container">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h2 class="display-4 fw-normal">
+            Get Started with Our Premium Plan and Get One Month Free.
+          </h2>
+          <p class="fs-5 text-body-secondary">
+            Access over 6million songs anywhere in world. Gain More features
+            with our paid plans and get one Month free trail, Cancel Anytime.
+          </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $0<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>One Device at a Time</li>
+                  <li>Free Streaming</li>
+                  <li>Limited Downloads</li>
+                  <li>With Ads</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Premium</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $15<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Unlimited Streaming</li>
+                  <li>One Month Free Trial</li>
+                  <li>Unlimited Downloads</li>
+                  <li>No Ads</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header py-3 text-bg-dark border-dark">
+                <h4 class="my-0 fw-normal">Family</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Multiple Users</li>
+                  <li>Unlimited Streaming</li>
+                  <li>Unlimited Downloads</li>
+                  <li>One Month Free Trial</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="display-6 text-center mb-4">Compare plans</h2>
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%"></th>
+                <th style="width: 22%">Free</th>
+                <th style="width: 22%">Premium</th>
+                <th style="width: 22%">Family</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Streaming</th>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Unlimited Downloads</th>
+                <td></td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">World Class Music</th>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Sharing</th>
+                <td></td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Extra Security</th>
+                <td></td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Multiple Members</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="container"></section>
+    <!-- Footer -->
+    <section id="footer" class="gradient-background">
+      <div class="container">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top"
+        >
+          <div class="col mb-3">
+            <div class="logo">
+              <a href="#"
+                ><svg
+                  width="30"
+                  height="40"
+                  viewBox="0 0 236 235"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M118 0.5C52.9531 0.5 0.222229 52.8826 0.222229 117.5C0.222229 182.117 52.9531 234.5 118 234.5C183.047 234.5 235.778 182.117 235.778 117.5C235.778 52.8826 183.047 0.5 118 0.5Z"
+                    fill="#FF0F50"
+                  />
+                  <path
+                    d="M183.428 138.97L182.745 139.263V139.594H156.662C148.045 139.583 141.063 132.647 141.053 124.088V106.71C141.053 106.228 140.958 105.751 140.772 105.306C140.586 104.861 140.314 104.456 139.971 104.115C139.628 103.774 139.221 103.504 138.772 103.32C138.324 103.135 137.844 103.04 137.358 103.04C136.379 103.04 135.439 103.427 134.746 104.115C134.053 104.804 133.664 105.737 133.664 106.71V149.227C133.664 157.792 126.676 164.733 118.055 164.733C109.434 164.733 102.446 157.791 102.446 149.227V85.7729C102.446 84.7996 102.057 83.8661 101.364 83.1779C100.671 82.4896 99.7314 82.103 98.7516 82.103C97.7718 82.103 96.8321 82.4896 96.1393 83.1779C95.4465 83.8661 95.0573 84.7996 95.0573 85.7729V124.106C95.0366 132.658 88.0573 139.583 79.448 139.594H53.2181L52.5533 138.951V128.437L53.2181 127.795H79.356C79.8412 127.795 80.3216 127.7 80.7699 127.515C81.2182 127.331 81.6255 127.061 81.9686 126.72C82.3117 126.379 82.5839 125.975 82.7696 125.529C82.9553 125.084 83.0508 124.607 83.0508 124.125V85.7729C83.0508 77.2091 90.0393 70.2672 98.6596 70.2672C107.28 70.2672 114.269 77.2095 114.269 85.7729V149.246C114.269 149.728 114.364 150.205 114.55 150.65C114.736 151.096 115.008 151.5 115.351 151.841C115.694 152.182 116.101 152.452 116.549 152.636C116.998 152.821 117.478 152.916 117.963 152.916C118.448 152.916 118.929 152.821 119.377 152.636C119.825 152.452 120.232 152.182 120.575 151.841C120.919 151.5 121.191 151.096 121.376 150.65C121.562 150.205 121.658 149.728 121.658 149.246V106.71C121.658 98.1466 128.646 91.2047 137.267 91.2047C145.888 91.2047 152.876 98.1466 152.876 106.71V124.106C152.876 125.08 153.265 126.013 153.958 126.701C154.651 127.389 155.59 127.776 156.57 127.776H182.653V128.07L183.336 128.401L183.428 138.97Z"
+                    fill="white"
+                  />
+                </svg>
+
+                MUSIK</a
+              >
+            </div>
+            <div class="small text-center text-muted pt-5">
+              <a href="#">- D'VINE &copy; All Rights Reserved</a>
+
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col mb-3"></div>
+
+          <div class="col mb-3">
+            <h5>Company</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Job Offer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Investors</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Developers</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>Others</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Be an Artist</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Podcasts</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Create music blog</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Advertisement</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#title" class="nav-link p-0 text-body-secondary"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#features" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#pricing" class="nav-link p-0 text-body-secondary"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
